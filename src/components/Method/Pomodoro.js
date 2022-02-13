@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Card = styled.div`
-    height: 90vh;
-`
+// const Card = styled.div`
+//     background-color: slategray;
+// `
 
 function Pomodoro(props) {
     return (
-        <Card>
-            {/* <button>Pomodoro 🍅</button> */}
-        </Card>
+        <>
+            <button>Pomodoro 🍅</button>
+        </>
+
     );
 }
 

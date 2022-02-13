@@ -6,6 +6,8 @@
 
 body {
   margin: 0;
+  padding: 0;
+  background-image: url(./assets/8.png);
   /* font-family: 'Helvetica Neue', Arial,  sans-serif; */
   /* font-family: 'Asap Condensed', sans-serif; */
   font-family: 'Mulish', sans-serif;
@@ -19,10 +21,13 @@ code {
     monospace;
 }
 
-
-/* .container {
-    display: flex;
-    height: 90vh;
-    width: 100%;
-    border: 2px solid red;
-} */
+.custom-slick .slick-prev:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+}
+.custom-slick .slick-next:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+}
