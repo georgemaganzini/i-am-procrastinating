@@ -1,14 +1,14 @@
 import Navbar from './components/Nav/Navbar';
 import SlideView from './components/Carousel/SlideView';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
-const ContentWrapper = styled.div`
-  height: 36em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-`
+// const ContentWrapper = styled.div`
+//   height: 36em;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-position: center;
+// `
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
 
       <Navbar />
 
-    <ContentWrapper>
+    <div className='content-wrapper'>
         <SlideView />
-    </ContentWrapper>
+    </div>
     </>
   );
 }
