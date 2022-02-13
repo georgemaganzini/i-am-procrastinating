@@ -1,6 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', Arial,  sans-serif;
+  /* font-family: 'Helvetica Neue', Arial,  sans-serif; */
+  /* font-family: 'Asap Condensed', sans-serif; */
+  font-family: 'Mulish', sans-serif;
+  /* font-family: 'Source Code Pro', monospace; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,8 +19,10 @@ code {
     monospace;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
+/* .container {
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    border: 2px solid red;
+} */
