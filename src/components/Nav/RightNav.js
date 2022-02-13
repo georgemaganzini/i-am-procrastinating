@@ -6,6 +6,7 @@ const Ul = styled.ul`
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    z-index: 10;
 
 
     li {
@@ -35,7 +36,7 @@ function RightNav({open}) {
             <Ul open={open}>
                 <li>Home</li>
                 <li>About</li>
-                <li>Contact Us</li>
+                <li>Contact Me</li>
                 <li>Sign In</li>
                 <li>Sign Up</li>
             </Ul>
