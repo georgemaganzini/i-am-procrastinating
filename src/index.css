@@ -1,6 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  box-sizing: content-box;
+  overflow: visible !important;
+}
+
+.entry-content {
+    overflow: visible;
+}
+
 body {
   margin: 0;
-  font-family: 'Helvetica Neue', Arial,  sans-serif;
+  padding: 0;
+  background-image: url(./assets/8.png);
+  /* font-family: 'Helvetica Neue', Arial,  sans-serif; */
+  /* font-family: 'Asap Condensed', sans-serif; */
+  font-family: 'Mulish', sans-serif;
+  /* font-family: 'Source Code Pro', monospace; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,8 +27,52 @@ code {
     monospace;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+.content-wrapper {
+  height: 36em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+
+.wrapper {
+  position: relative;
+  top: 15%;
+  max-height: 650px;
+  min-height: 650px;
+  max-width: 300px;
+  min-width: 200px;
+  /* background-color: slategray; */
+  background-color: hsl(0deg 0% 97%);
+  border-radius: 0.3125rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin: auto;
+}
+
+.svg {
+
+  position: absolute;
+  /* float: right; */
+  margin: 10px;
+  position: relative;
+  left:-60px;
+  top:-200px;
+  width:400px;
+  height:400px;
+  z-index: 60;
+  overflow: visible !important;
+  margin: auto;
+}
+
+
+.custom-slick .slick-prev:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
+}
+.custom-slick .slick-next:before {
+    content: "";
+    font-family: 'FontAwesome';
+    font-size: 22px;
 }
