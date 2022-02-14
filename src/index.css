@@ -1,7 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  box-sizing: content-box;
+  overflow: visible !important;
+}
+
+.entry-content {
+    overflow: visible;
 }
 
 body {
@@ -41,17 +47,22 @@ code {
   background-color: hsl(0deg 0% 97%);
   border-radius: 0.3125rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  overflow: visible;
+  margin: auto;
 }
 
 .svg {
+
+  position: absolute;
+  /* float: right; */
+  margin: 10px;
   position: relative;
   left:-60px;
   top:-200px;
-  width:200px;
+  width:400px;
   height:400px;
   z-index: 60;
-  overflow: visible;
+  overflow: visible !important;
+  margin: auto;
 }
 
 
