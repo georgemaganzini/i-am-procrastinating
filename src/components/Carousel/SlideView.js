@@ -7,13 +7,19 @@ import Pomodoro from '../Method/Pomodoro';
 import './SlideView.css';
 
 const Wrapper = styled.div`
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    // hover effect, make permanent?
+    /* transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     		&:hover {
 			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-		}
+		} */
 `;
 
 const Page = styled.div`
+  max-height: 650px;
+  min-height: 650px;
+  max-width: 300px;
+  min-width: 200px;
+  /* border: 1px solid green; */
 `;
 
 function SampleNextArrow(props) {
@@ -42,7 +48,7 @@ function SamplePrevArrow(props) {
 function SlideView(props) {
     return (
           <Wrapper className='wrapper'>
-            <Slider
+            <Slider className='page'
                 speed={500}
                 slidesToShow={1}
                 slidesToScroll={1}
@@ -53,11 +59,11 @@ function SlideView(props) {
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
-                <Page>
+                <Page className='page-test'>
                     <Pomodoro />
                 </Page>
-                <Page>page 2</Page>
-                <Page>page 3</Page>
+                <Page className='page-test'>page 2</Page>
+                <Page className='page-test'>page 3</Page>
             </Slider>
           </Wrapper>
         );
