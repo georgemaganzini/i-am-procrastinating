@@ -19,7 +19,7 @@ const ButtonWrapper = styled.div`
 function Pomodoro2(props) {
     return (
         <Card>
-            <h1 className='pomo-test'>Try a Pomodoro</h1>
+            <h1 className='pomo-test green-h1'>Try a Pomodoro</h1>
             <img
                 src={womanTyping}
                 alt={'woman-writing'}

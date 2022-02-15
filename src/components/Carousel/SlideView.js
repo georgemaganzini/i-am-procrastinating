@@ -5,8 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import './SlideView.css';
 import Pomodoro from '../Method/Pomodoro/Pomodoro';
 import Pomodoro2 from '../Method/Pomodoro2/Pomodoro2';
-import Pomodoro3 from './Card/Pomodoro3'
-
+import Pomodoro3 from '../Method/Pomodoro3.js/Pomodoro3'
+import Flow from '../Method/Flow/Flow';
+import Inspiration from '../Method/Inspiration/Inspiration';
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -44,9 +45,9 @@ function SlideView(props) {
             >
               <Pomodoro />
               <Pomodoro2 />
-              <div className='card'>
-                <Pomodoro3 />
-              </div>
+              <Pomodoro3 />
+              <Flow />
+              <Inspiration />
             </Slider>
           </div>
         );
