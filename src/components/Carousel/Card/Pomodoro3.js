@@ -1,24 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
-import womanTyping from '../../assets/pomo.svg';
+import womanTyping from '../../../assets/pomo.svg';
 
-const Card = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-height: 650px;
-  min-height: 650px;
-  max-width: 300px;
-  min-width: 200px;
+const FlexWrap = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 650px;
 `
+
 const ButtonWrapper = styled.div`
     margin-bottom: 20px;
     margin-left: 30px;
 `
 function Pomodoro(props) {
     return (
-        <Card>
+        <FlexWrap>
             <img
                 src={womanTyping}
                 alt={'woman-writing'}
@@ -35,7 +33,7 @@ function Pomodoro(props) {
                 <button className='button-pomo'> 25:00   🍅</button>
                 <button className='button-pomo'> 50:00   🍅</button>
             </ButtonWrapper>
-        </Card>
+        </FlexWrap>
     );
 }
 

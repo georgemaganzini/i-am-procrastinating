@@ -33,7 +33,7 @@ code {
   background-position: center;
 }
 
-.wrapper {
+.slider-wrapper {
   position: relative;
   top: 10%;
   max-height: 650px;
@@ -46,13 +46,9 @@ code {
   border-radius: 0.3125rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin: auto;
-
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-  /* display: block; */
+
 }
-
-
-
 
 .pomo-svg {
   /* position: absolute; */
