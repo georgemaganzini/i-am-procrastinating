@@ -1,20 +1,13 @@
 import React from 'react';
-import styled from 'styled-components'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Pomodoro from '../Method/Pomodoro';
 import './SlideView.css';
-
-const Wrapper = styled.div`
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    		&:hover {
-			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-		}
-`;
-
-const Page = styled.div`
-`;
+import Pomodoro from '../Method/Pomodoro/Pomodoro';
+import Pomodoro2 from '../Method/Pomodoro2/Pomodoro2';
+import Pomodoro3 from '../Method/Pomodoro3.js/Pomodoro3'
+import Flow from '../Method/Flow/Flow';
+import Inspiration from '../Method/Inspiration/Inspiration';
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -26,7 +19,6 @@ function SampleNextArrow(props) {
     />
   );
 }
-
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -38,28 +30,26 @@ function SamplePrevArrow(props) {
   );
 }
 
-
 function SlideView(props) {
     return (
-          <Wrapper className='wrapper'>
+          <div className='slider-wrapper'>
             <Slider
                 speed={500}
                 slidesToShow={1}
                 slidesToScroll={1}
-                infinite={false}
+                infinite={true}
                 arrows={true}
                 accessibility={true}
-                // dots={true}
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
-                <Page>
-                    <Pomodoro />
-                </Page>
-                <Page>page 2</Page>
-                <Page>page 3</Page>
+              <Pomodoro />
+              <Pomodoro2 />
+              <Pomodoro3 />
+              <Flow />
+              <Inspiration />
             </Slider>
-          </Wrapper>
+          </div>
         );
     }
 

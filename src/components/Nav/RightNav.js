@@ -35,10 +35,9 @@ function RightNav({open}) {
     return (
             <Ul open={open}>
                 <li>Home</li>
+                <li>How To Use</li>
                 <li>About</li>
                 <li>Contact Me</li>
-                <li>Sign In</li>
-                <li>Sign Up</li>
             </Ul>
     );
 }
