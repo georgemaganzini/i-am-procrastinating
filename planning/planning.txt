@@ -1,0 +1,20 @@
+MVP TODO:
+Add base content to all slides
+Add base functionality to all slides
+Routes
+Navbar - About, Contact, Info
+
+
+Tuesday:
+Base Content and functionality to all slides
+Routes and navbar stuff too?
+
+
+Wednesday:
+Swap carousel to moving cards?
+2-3 cards per page based on media query?
+individual card improvements
+
+
+Thursday:
+Reserved for bugfixing / polish
