@@ -1,13 +1,13 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import bittersweet from '../../../assets/bittersweet.svg'
 
-function METHODNAME(props) {
+function Bittersweet(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Mix Bitter & Sweet</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={bittersweet}
+                alt={'bittersweet'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
@@ -20,4 +20,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Bittersweet;

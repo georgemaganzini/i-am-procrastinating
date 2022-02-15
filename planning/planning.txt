@@ -1,9 +1,18 @@
+Overall Ethos:
+-Easily Digestible
+-Delightful to use, aesthetically pleasing
+-Provide Valuable Information + Tools
+
+
 MVP TODO:
 Add base content to all slides
 Add base functionality to all slides
 Routes
 Navbar - About, Contact, Info
 
+POST MVP TODO:
+Dark mode
+Custom interaction for individual methods
 
 Tuesday:
 Base Content and functionality to all slides

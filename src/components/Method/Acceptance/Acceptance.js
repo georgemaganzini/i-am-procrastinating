@@ -1,17 +1,19 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import acceptance from '../../../assets/acceptance.svg'
 
-function METHODNAME(props) {
+function Acceptance(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='yellow-h1'>Accept Your Procrastination</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={acceptance}
+                alt={'acceptance'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Don't trivialize "I'll only give in once."</li>
+                <li className='card-li'>Log your procrastination habits.</li>
+                <li className='card-li'>Remember that you are human</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +22,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Acceptance;

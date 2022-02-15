@@ -4,12 +4,13 @@
 ---Home
 ---Info/How to use
 ---About
----Link to Favs e.g. Pomodoro?
+---Link directly to Favs e.g. Pomodoro?
 
 --Carousel(SlideView, rename if possible)
 ---All Methods Individually
 ---- 1) dry up code with a map
 ---- 2) try import all w/
-        https://stackoverflow.com/questions/29722270/is-it-possible-to-import-modules-from-all-files-in-a-directory-using-a-wildcard/43508228#43508228
+       https://stackoverflow.com/questions/29722270/is-it-possible-to-import-modules-from-all-files-in-a-directory-using-a-wildcard/43508228#43508228
+       https://github.com/vihanb/babel-plugin-wildcard
 ---- 1) randomize order
 ---- 1) randomize order but keep colors evenly distributed

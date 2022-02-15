@@ -1,17 +1,18 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import meaning from '../../../assets/meaning.svg'
 
-function METHODNAME(props) {
+function Meaning(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Find Meaning</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={meaning}
+                alt={'meaning'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Set and review your major life goals</li>
+                <li className='card-li'>How does this connect?</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +21,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Meaning;

@@ -1,17 +1,18 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import accountability from '../../../assets/accountability.svg'
 
-function METHODNAME(props) {
+function Accountability(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Add Accountability</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={accountability}
+                alt={'accountability'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Who knows about this?</li>
+                <li className='card-li'>Can you make it public?</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +21,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Accountability;

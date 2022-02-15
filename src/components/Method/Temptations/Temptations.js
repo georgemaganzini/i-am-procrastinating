@@ -1,17 +1,19 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import temptations from '../../../assets/temptations.svg'
 
-function METHODNAME(props) {
+function Temptations(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='green-h1'>Eliminate Temptations</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={temptations}
+                alt={'temptations'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Focus on the abstract aspects of your temptation, not the fun parts</li>
+                <li className='card-li'>Eliminate it! (or hide it)</li>
+                <li className='card-li'>Recognize what is tempting you</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +22,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Temptations;

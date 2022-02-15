@@ -1,23 +1,26 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import brainhealth from '../../../assets/brainhealth.svg'
 
-function METHODNAME(props) {
+function BrainHealth(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Keep Your Brain Healthy</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={brainhealth}
+                alt={'brainhealth'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Sleep</li>
+                <li className='card-li'>Excercise</li>
+                <li className='card-li'>Take genuine breaks</li>
+                <li className='card-li'>Reduce your commitments</li>
             </ul>
             <div>
-                buttons etc
+                try an NSDR
             </div>
         </div>
     );
 }
 
-export default METHODNAME;
+export default BrainHealth;

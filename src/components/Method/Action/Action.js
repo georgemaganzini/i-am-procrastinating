@@ -1,17 +1,17 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import action from '../../../assets/action.svg'
 
-function METHODNAME(props) {
+function Action(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='yellow-h1'>Action is Required</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={action}
+                alt={'action'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Remember: lack of effor guarantees failure</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +20,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Action;

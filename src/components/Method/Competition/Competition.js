@@ -1,23 +1,25 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import competition from '../../../assets/competition.svg'
 
-function METHODNAME(props) {
+function Competition(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Create Competition</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={competition}
+                alt={'competition'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Turn it into a game, make it fun!</li>
+                <li className='card-li'>Compete against yourself or others</li>
+                <li className='card-li'>SPEEDRUN?!</li>
             </ul>
             <div>
-                buttons etc
+                <button>00:00 ⏱️</button>
             </div>
         </div>
     );
 }
 
-export default METHODNAME;
+export default Competition;

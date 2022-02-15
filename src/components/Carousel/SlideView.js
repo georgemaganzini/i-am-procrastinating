@@ -18,7 +18,7 @@ import Habits from '../Method/Habits/Habits';
 import Inspiration from '../Method/Inspiration/Inspiration';
 import Meaning from '../Method/Meaning/Meaning';
 import Mindset from '../Method/Mindset/Mindset';
-import NegativePairing from '../Method/NegativePairing/NegativePairing';
+import Negative from '../Method/Negative/Negative';
 import Pain from '../Method/Pain/Pain';
 import Passion from '../Method/Passion/Passion';
 import Plan from '../Method/Plan/Plan';
@@ -80,12 +80,11 @@ function SlideView(props) {
               <Contrast />
               <Distractions />
               <Energy />
-              <Flow />
               <Goals />
               <Habits />
               <Meaning />
               <Mindset />
-              <NegativePairing />
+              <Negative />
               <Pain />
               <Passion />
               <Plan />

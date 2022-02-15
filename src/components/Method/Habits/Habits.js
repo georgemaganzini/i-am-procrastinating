@@ -1,17 +1,20 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import habits from '../../../assets/habits.svg'
 
-function METHODNAME(props) {
+function Habits(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='green-h1'>Create Routines and Habits</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={habits}
+                alt={'habits'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Can part of this be turned into a habit?</li>
+                <li className='card-li'>Can part of this be added to an existing routine?</li>
+                <li className='card-li'>Separate work and play</li>
+                <li className='card-li'>Schedule leisure before work</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +23,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Habits;

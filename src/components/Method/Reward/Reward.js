@@ -1,17 +1,18 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import reward from '../../../assets/reward.svg'
 
-function METHODNAME(props) {
+function Reward(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='blue-h1'>Create a Reward</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={reward}
+                alt={'reward'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Make the situation more rewarding</li>
+                <li className='card-li'>Reward your success</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +21,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Reward;

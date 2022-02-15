@@ -1,17 +1,19 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import pain from '../../../assets/pain.svg'
 
-function METHODNAME(props) {
+function Pain(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='green-h1'>Make Failure Painful</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={pain}
+                alt={'pain'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>How will failure be painful?</li>
+                <li className='card-li'>Make it more painful</li>
+                <li className='card-li'>Make a costly bet with someone</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +22,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Pain;

@@ -1,17 +1,18 @@
 import React from 'react';
-import PIC from '../../../assets/PIC'
+import mindset from '../../../assets/mindset.svg'
 
-function METHODNAME(props) {
+function Mindset(props) {
     return (
         <div className='card'>
-            <h1 className='COLOR-h1'>TITLE H1</h1>
+            <h1 className='yellow-h1'>Check Your Mindset</h1>
             <img
-                src={PIC}
-                alt={'PIC'}
+                src={mindset}
+                alt={'mindset'}
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Qualities and skills are cultivated through effort</li>
+                <li className='card-li'>Nothing is carved in stone</li>
             </ul>
             <div>
                 buttons etc
@@ -20,4 +21,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Mindset;
