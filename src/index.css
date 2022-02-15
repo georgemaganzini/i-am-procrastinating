@@ -2,8 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --blue: #6394ff;
+  --green: #00C354;
+  --yellow: #ffce63;
   /* overflow: visible !important; */
 }
+
 
 body {
   margin: 0;
@@ -52,13 +56,10 @@ code {
 }
 
 h1 {
+  margin-top: 10px;
   position: relative;
   font-size: 26px;
   font-weight: 600;
-}
-
-.pomo-test {
-  margin-top: 10px;
 }
 
 h1::after {
@@ -100,8 +101,8 @@ h1::after {
   margin: 1em 0;
 }
 
-.button-pomo {
-	height: 50px;
+button{
+  height: 50px;
 	width: 240px;
   position: relative;
 	margin-bottom: 20px;
@@ -112,7 +113,6 @@ h1::after {
 	/* transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
 	--bg-opacity: 1;
 	--text-opacity: 1; */
-	background: #48e5c3be;
 	color: #fff;
 	/* border: 1px solid #130b43; */
 	/* --border-opacity: 1; */
@@ -125,22 +125,27 @@ h1::after {
 
 }
 
-.button-pomo:hover{
+button:hover{
   box-shadow: -2px -2px 3px #fff, 2px 2px 3px #BABECC;
 }
 
-.button-pomo:active{
+button:active{
   box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #fff;
 }
 
-.flow-pic {
-  width: 250px;
+.blue-button {
+	background: var(--blue);
 }
 
-.inspiration-pic {
-  width: 250px;
+.green-button {
+	background: var(--green);
 }
+
+.yellow-button {
+	background: var(--yellow);
+}
+
 
 .PIC-pic {
-  width: 250px;
+  width: 210px;
 }

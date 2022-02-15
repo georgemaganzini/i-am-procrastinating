@@ -4,7 +4,7 @@ import habits from '../../../assets/habits.svg'
 function Habits(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Create Routines and Habits</h1>
+            <h1 className='green-h1'>Create Routines & Habits</h1>
             <img
                 src={habits}
                 alt={'habits'}

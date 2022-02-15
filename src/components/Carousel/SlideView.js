@@ -23,7 +23,6 @@ import Pain from '../Method/Pain/Pain';
 import Passion from '../Method/Passion/Passion';
 import Plan from '../Method/Plan/Plan';
 import Pomodoro from '../Method/Pomodoro/Pomodoro';
-import Pomodoro2 from '../Method/Pomodoro2/Pomodoro2';
 import Productive from '../Method/Productive/Productive';
 import Recognize from '../Method/Recognize/Recognize';
 import Remind from '../Method/Remind/Remind';
@@ -68,7 +67,6 @@ function SlideView(props) {
                 prevArrow={<SamplePrevArrow />}
             >
               <Pomodoro />
-              <Pomodoro2 />
               <Flow />
               <Inspiration />
               <Action />

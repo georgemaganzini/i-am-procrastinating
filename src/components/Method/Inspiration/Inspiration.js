@@ -8,7 +8,7 @@ function Inspiration(props) {
             <img
                 src={inspiration}
                 alt={'inspiration-pic'}
-                className="inspiration-pic"
+                className="PIC-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Curabitur ac tristique mauris. Proin odio ipsum, bibendum at turpis quis, sollicitudin rutrum ligula. Nulla non sodales purus. Quisque congue diam nec cursus viverra. Sed et libero ipsum. Integer tortor sapien, </li>

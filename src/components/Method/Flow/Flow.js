@@ -8,7 +8,7 @@ function Flow(props) {
             <img
                 src={flowchart}
                 alt={'flow-pic'}
-                className="flow-pic"
+                className="PIC-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'></li>
