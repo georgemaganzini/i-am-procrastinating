@@ -1,14 +1,14 @@
 import React from 'react';
 import remind from '../../../assets/remind.svg'
 
-function METHODNAME(props) {
+function Remind(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Use Goal Reminders</h1>
+            <h1 className='card-title green-h1'>Use Goal Reminders</h1>
             <img
                 src={remind}
                 alt={'remind'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Make your goals visible</li>
@@ -22,4 +22,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Remind;

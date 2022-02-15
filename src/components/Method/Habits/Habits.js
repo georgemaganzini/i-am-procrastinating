@@ -4,11 +4,11 @@ import habits from '../../../assets/habits.svg'
 function Habits(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Habits & Routines</h1>
+            <h1 className='card-title green-h1'>Habits & Routines</h1>
             <img
                 src={habits}
                 alt={'habits'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Can part of this be turned into a habit?</li>

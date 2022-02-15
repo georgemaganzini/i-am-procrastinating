@@ -4,11 +4,11 @@ import bittersweet from '../../../assets/bittersweet.svg'
 function Bittersweet(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Mix Bitter & Sweet</h1>
+            <h1 className='card-title blue-h1'>Mix Bitter & Sweet</h1>
             <img
                 src={bittersweet}
                 alt={'bittersweet'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Combine long-term interests with short-term gains</li>

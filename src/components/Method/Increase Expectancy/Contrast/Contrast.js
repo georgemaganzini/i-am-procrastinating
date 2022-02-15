@@ -1,14 +1,14 @@
 import React from 'react';
-import contrast from '../../../assets/contrast.svg'
+import contrast from '../../../../assets/contrast.svg'
 
 function Contrast(props) {
     return (
         <div className='card'>
-            <h1 className='yellow-h1'>Contrast</h1>
+            <h1 className='card-title yellow-h1'>Contrast</h1>
             <img
                 src={contrast}
                 alt={'contrast'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Compare ideal state with current state</li>

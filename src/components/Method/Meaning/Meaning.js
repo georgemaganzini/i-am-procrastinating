@@ -4,11 +4,11 @@ import meaning from '../../../assets/meaning.svg'
 function Meaning(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Find Meaning</h1>
+            <h1 className='card-title blue-h1'>Find Meaning</h1>
             <img
                 src={meaning}
                 alt={'meaning'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Set and review your major life goals</li>

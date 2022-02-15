@@ -4,11 +4,11 @@ import visualize from '../../../assets/visualize.svg'
 function Visualize(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Make Progress Visual</h1>
+            <h1 className='card-title green-h1'>Make Progress Visual</h1>
             <img
                 src={visualize}
                 alt={'visualize'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Track your progress</li>

@@ -4,11 +4,11 @@ import brainhealth from '../../../assets/brainhealth.svg'
 function BrainHealth(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Keep Your Brain Healthy</h1>
+            <h1 className='card-title blue-h1'>Keep Your Brain Healthy</h1>
             <img
                 src={brainhealth}
                 alt={'brainhealth'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Sleep</li>

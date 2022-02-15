@@ -1,15 +1,15 @@
 import React from 'react';
-import plan from '../../../assets/plan.svg'
+import plan from '../../../../assets/plan.svg'
 
-function METHODNAME(props) {
+function Plan(props) {
     return (
         <div className='card'>
-            <div><h1 className='yellow-h1 long'>Plan for the Worst</h1> <h1 className='yellow-h1 long'>Hope for the Best</h1></div>
+            <div><h1 className='card-title yellow-h1 long'>Plan for the Worst</h1> <h1 className='card-title yellow-h1 long'>Hope for the Best</h1></div>
 
             <img
                 src={plan}
                 alt={'plan'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>What could go wrong?</li>
@@ -23,4 +23,4 @@ function METHODNAME(props) {
     );
 }
 
-export default METHODNAME;
+export default Plan;

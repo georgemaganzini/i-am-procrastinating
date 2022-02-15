@@ -4,11 +4,11 @@ import passion from '../../../assets/passion.svg'
 function Passion(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Find Passion</h1>
+            <h1 className='card-title blue-h1'>Find Passion</h1>
             <img
                 src={passion}
                 alt={'passion'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Know what you are passionate about</li>

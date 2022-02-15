@@ -1,14 +1,14 @@
 import React from 'react';
-import acceptance from '../../../assets/acceptance.svg'
+import acceptance from '../../../../assets/acceptance.svg'
 
 function Acceptance(props) {
     return (
         <div className='card'>
-            <h1 className='yellow-h1'>Accept Procrastination</h1>
+            <h1 className='card-title yellow-h1'>Accept Procrastination</h1>
             <img
                 src={acceptance}
                 alt={'acceptance'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Don't trivialize "I'll only give in once."</li>

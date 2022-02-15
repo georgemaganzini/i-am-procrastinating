@@ -4,11 +4,11 @@ import productive from '../../../assets/productive.svg'
 function Productive(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1 long'>Productive Procrastination</h1>
+            <h1 className='card-title blue-h1 long'>Productive Procrastination</h1>
             <img
                 src={productive}
                 alt={'productive'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>What can you avoid by doing this?</li>

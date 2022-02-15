@@ -9,11 +9,11 @@ const ButtonWrapper = styled.div`
 function Pomodoro(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Try a Pomodoro</h1>
+            <h1 className='card-title green-h1'>Try a Pomodoro</h1>
             <img
                 src={womanTyping}
                 alt={'woman-writing'}
-                className="PIC-pic">
+                className="undraw-pic">
             </img>
             <ul className='card-ul'>
             <li className='card-li'>Commit to working on a task for a set period of time, then take a break!</li>

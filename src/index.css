@@ -52,18 +52,14 @@ code {
   min-height: 650px;
 }
 
-.pomo-svg {
-  width:210px;
-}
-
-h1 {
+.card-title {
   margin-top: 10px;
   position: relative;
   font-size: 26px;
   font-weight: 600;
 }
 
-h1::after {
+.card-title::after {
     content: '';
     position: absolute;
     bottom: -0.5rem;
@@ -154,6 +150,6 @@ button:active{
 }
 
 
-.PIC-pic {
+.undraw-pic {
   width: 210px;
 }

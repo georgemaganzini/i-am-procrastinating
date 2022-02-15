@@ -4,11 +4,11 @@ import temptations from '../../../assets/temptations.svg'
 function Temptations(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Eliminate Temptations</h1>
+            <h1 className='card-title green-h1'>Eliminate Temptations</h1>
             <img
                 src={temptations}
                 alt={'temptations'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Focus on the abstract aspects of your temptation, not the fun parts</li>

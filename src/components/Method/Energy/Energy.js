@@ -4,11 +4,11 @@ import energy from '../../../assets/energy.svg'
 function Energy(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Get Some Energy</h1>
+            <h1 className='card-title blue-h1'>Get Some Energy</h1>
             <img
                 src={energy}
                 alt={'energy'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Get your blood moving</li>

@@ -5,11 +5,11 @@ import flowchart from '../../../assets/flow.png'
 function Flow(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Find Flow</h1>
+            <h1 className='card-title blue-h1'>Find Flow</h1>
             <img
                 src={flow}
                 alt={'flow-pic'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Match difficulty with skill</li>
@@ -20,7 +20,7 @@ function Flow(props) {
                      <img
                 src={flowchart}
                 alt={'flow-pic'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             </div>
         </div>

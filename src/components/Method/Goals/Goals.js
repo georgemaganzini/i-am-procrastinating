@@ -4,11 +4,11 @@ import goals from '../../../assets/goals.svg'
 function Goals(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Set a Goal</h1>
+            <h1 className='card-title green-h1'>Set a Goal</h1>
             <img
                 src={goals}
                 alt={'goals'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>"Achieve this" not "avoid that"</li>

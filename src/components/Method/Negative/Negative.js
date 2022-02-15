@@ -4,11 +4,11 @@ import negative from '../../../assets/negative.svg'
 function Negative(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Use Negative Pairing</h1>
+            <h1 className='card-title green-h1'>Use Negative Pairing</h1>
             <img
                 src={negative}
                 alt={'negative'}
-                className="PIC-pic"
+                className="undraw-pic"
             />
             <ul className='card-ul'>
                 <li className='card-li'>Pair temptations with undesireable images</li>
