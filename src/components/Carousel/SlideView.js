@@ -63,6 +63,7 @@ function SlideView(props) {
                 infinite={true}
                 arrows={true}
                 accessibility={true}
+                fade={true}
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >

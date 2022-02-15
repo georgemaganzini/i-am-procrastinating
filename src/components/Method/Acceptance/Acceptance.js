@@ -4,7 +4,7 @@ import acceptance from '../../../assets/acceptance.svg'
 function Acceptance(props) {
     return (
         <div className='card'>
-            <h1 className='yellow-h1'>Accept Your Procrastination</h1>
+            <h1 className='yellow-h1'>Accept Procrastination</h1>
             <img
                 src={acceptance}
                 alt={'acceptance'}

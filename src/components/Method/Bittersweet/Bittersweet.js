@@ -11,7 +11,7 @@ function Bittersweet(props) {
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'></li>
+                <li className='card-li'>Combine long-term interests with short-term gains</li>
             </ul>
             <div>
                 buttons etc

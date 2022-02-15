@@ -11,7 +11,9 @@ function Inspiration(props) {
                 className="PIC-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Curabitur ac tristique mauris. Proin odio ipsum, bibendum at turpis quis, sollicitudin rutrum ligula. Nulla non sodales purus. Quisque congue diam nec cursus viverra. Sed et libero ipsum. Integer tortor sapien, </li>
+                <li className='card-li'>Make your inspirations visible</li>
+                <li className='card-li'>Know what inspires you and why</li>
+                <li className='card-li'>Review your inspirations</li>
             </ul>
             <div>
                 buttons etc

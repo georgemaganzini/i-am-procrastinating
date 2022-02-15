@@ -4,7 +4,7 @@ import productive from '../../../assets/productive.svg'
 function Productive(props) {
     return (
         <div className='card'>
-            <h1 className='blue-h1'>Use Productive Procrastination</h1>
+            <h1 className='blue-h1 long'>Productive Procrastination</h1>
             <img
                 src={productive}
                 alt={'productive'}

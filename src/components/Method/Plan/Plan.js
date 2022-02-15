@@ -4,7 +4,8 @@ import plan from '../../../assets/plan.svg'
 function METHODNAME(props) {
     return (
         <div className='card'>
-            <h1 className='yellow-h1'>Plan for the Worst, Hope for the Best</h1>
+            <div><h1 className='yellow-h1 long'>Plan for the Worst</h1> <h1 className='yellow-h1 long'>Hope for the Best</h1></div>
+
             <img
                 src={plan}
                 alt={'plan'}

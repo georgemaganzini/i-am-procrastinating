@@ -4,7 +4,7 @@ import supression from '../../../assets/supression.svg'
 function Suppression(props) {
     return (
         <div className='card'>
-            <h1 className='green-h1'>Stop Supressing Thoughts</h1>
+            <h1 className='green-h1 long'>Stop Supressing Thoughts</h1>
             <img
                 src={supression}
                 alt={'supression'}
