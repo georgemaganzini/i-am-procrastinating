@@ -1,10 +1,12 @@
+/* Arrows */
+
 .slick-prev:before{
 width: 66px;
 height: 66px;
 content: '' !important;
 position: absolute;
 top: 360px;
-left: 30px;
+left: 20px;
 background-image: url('../../assets/left.png');
 background-repeat: no-repeat;
 vertical-align: middle;
@@ -18,15 +20,10 @@ height: 66px;
 content: '' !important;
 position: absolute;
 top: 360px;
-right: 30px;
+right: 20px;
 background-image: url('../../assets/right.png');
 background-repeat: no-repeat;
 vertical-align: middle;
 background-size: 66px;
 opacity: .5;
 }
-
-
-/* .slick-prev{
- border: 2px solid green;
-} */

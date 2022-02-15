@@ -16,15 +16,15 @@ const ButtonWrapper = styled.div`
     margin-bottom: 20px;
     margin-left: 30px;
 `
-function Pomodoro(props) {
+function Pomodoro2(props) {
     return (
         <Card>
+            <h1 className='pomo-test'>Try a Pomodoro</h1>
             <img
                 src={womanTyping}
                 alt={'woman-writing'}
                 className="pomo-svg">
             </img>
-            <h1>Try a Pomodoro</h1>
             <ul className='card-ul'>
             <li className='card-li'>Commit to working on a task for a set period of time, then take a break!</li>
             <li className='card-li'>Focus on process not product, i.e. "I will put 25 minutes of work into this
@@ -39,4 +39,4 @@ function Pomodoro(props) {
     );
 }
 
-export default Pomodoro;
+export default Pomodoro2;

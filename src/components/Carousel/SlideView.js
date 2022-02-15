@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Pomodoro from '../Method/Pomodoro';
 import './SlideView.css';
+import Pomodoro from '../Method/Pomodoro';
+import Pomodoro2 from '../Method/Pomodoro2';
 
 const Wrapper = styled.div`
     // hover effect, make permanent?
@@ -15,10 +16,10 @@ const Wrapper = styled.div`
 `;
 
 const Page = styled.div`
-  max-height: 650px;
+  /* max-height: 650px;
   min-height: 650px;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 200px; */
   /* border: 1px solid green; */
 `;
 
@@ -52,17 +53,18 @@ function SlideView(props) {
                 speed={500}
                 slidesToShow={1}
                 slidesToScroll={1}
-                infinite={false}
+                infinite={true}
                 arrows={true}
                 accessibility={true}
-                // dots={true}
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
                 <Page className='page-test'>
                     <Pomodoro />
                 </Page>
-                <Page className='page-test'>page 2</Page>
+                <Page className='page-test'>
+                  <Pomodoro2 />
+                </Page>
                 <Page className='page-test'>page 3</Page>
             </Slider>
           </Wrapper>
