@@ -16,7 +16,7 @@ function BrainHealth(props) {
                 <li className='card-li'>Take genuine breaks</li>
                 <li className='card-li'>Reduce your commitments</li>
             </ul>
-            <button className='blue-button'>Try NSDR</button>
+            <button className='blue-button'>Try an NSDR</button>
                {/* https://www.youtube.com/watch?v=pL02HRFk2vo */}
         </div>
     );

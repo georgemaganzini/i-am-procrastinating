@@ -1,21 +1,32 @@
-import React, {useContext, useState} from 'react';
-import { LogContext } from '../context/LogContext';
+import React, {useContext, useState, useEffect} from 'react';
+import { ProcrastinationContext } from '../procrastinationContext';
+import { useLocalStorage } from '../useLocalStorage';
 
 const NewLogForm = () => {
-    const { dispatch } = useContext(LogContext);
-    const [test, setTest] = useState("");
-    const handleSubmit = (e) => {
+    // const {test, setTest} = useContext(ProcrastinationContext);
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     console.log(test)
+    //     setTest("");
+    // }
+//    useEffect(() => {
+
+//     localStorage.setItem("name", JSON.stringify(test));
+//     }, [test2]);
+
+
+const [test2, setTest2] = useLocalStorage("name", "");
+
+const handleChange = (e) => {
         e.preventDefault();
-        dispatch({type: "ADD_INSPIRATION", log: {
-            category: test,
-            entry: test,
-        }});
-        setTest("");
-    }
+        console.log(e.target.value)
+}
+
+
     return(
-            <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="What inspires you?" value={test} onChange={(e)=>setTest(e.target.value)}/>
-                <input type="submit" value="add test" />
+            <form>
+                <input type="text" placeholder="What inspires you?" value={test2} onChange={(e)=>setTest2(e.target.value)}/>
+                <input type="submit" value="Submit" />
             </form>
     )
 }

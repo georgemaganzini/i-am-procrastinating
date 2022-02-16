@@ -4,7 +4,12 @@ import { ProcrastinationContext } from './procrastinationContext';
 import { useState } from 'react';
 
 function App() {
-  const [test, setTest] = useState([]);
+  const [test, setTest] = useState(()=>{
+    const saved = localStorage.getItem("name");
+    const initialValue = JSON.parse(saved);
+    return initialValue || "";
+  });
+
   return (
     <ProcrastinationContext.Provider
       value={{
