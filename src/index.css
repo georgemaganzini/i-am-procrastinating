@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --blue: #6394ff;
+  --green: #00c355ce;
+  --yellow: #ffce63;
   /* overflow: visible !important; */
 }
 
@@ -9,10 +12,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(./assets/8.png);
-  /* font-family: 'Helvetica Neue', Arial,  sans-serif; */
-  /* font-family: 'Asap Condensed', sans-serif; */
   font-family: 'Mulish', sans-serif;
-  /* font-family: 'Source Code Pro', monospace; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,10 +24,6 @@ code {
 
 .content-wrapper {
   height: 36em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
 }
 
 .slider-wrapper {
@@ -38,12 +34,10 @@ code {
   max-width: 300px;
   min-width: 200px;
   background-color: hsl(0deg 0% 97%);
-  /* background-color: #EBECF0; */
   border-radius: 0.5rem;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin: auto;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-
 }
 
 .card {
@@ -54,20 +48,17 @@ code {
   min-height: 650px;
 }
 
-.pomo-svg {
-  width:210px;
-}
-
-h1 {
-  position: relative;
-  font-size: 26px;
-}
-
-.pomo-test {
+.card-title {
   margin-top: 10px;
+  font-size: 26px;
+  font-weight: 600;
 }
 
-h1::after {
+.card-title, .underline {
+  position: relative;
+}
+
+.card-title::after {
     content: '';
     position: absolute;
     bottom: -0.5rem;
@@ -79,35 +70,68 @@ h1::after {
     background-size: cover;
 }
 
-.green-h1::after {
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-h1::after, .green-underline::after {
   background-image: url('./assets/green.svg');
 }
 
-.blue-h1::after {
+.blue-h1::after, .blue-underline::after {
   background-image: url('./assets/blue.svg');
 }
 
-.yellow-h1::after {
+.yellow-h1::after, .yellow-underline::after {
   background-image: url('./assets/yellow.svg');
+}
+
+.long {
+  font-size: 22px;
 }
 
 .card-ul {
   padding-left: 8px;
   margin: 0 1em;
   list-style: none;
-  background-color: #EBECF0;
-  box-shadow:  inset 1.5px 1.5px 1px #BABECC, inset -1.5px -1.5px 1px #BABECC;
   border-radius: 16px;
-
+  background-color: rgb(225, 225, 225);
 }
+
+/* Code Block/Inset */
+
+/* .card-ul{
+  background-color: #EBECF0;
+  background-color: hsl(0deg 0% 97%);
+  background-color: rgb(240, 240, 240);
+  background-color: rgb(230, 230, 230);
+  background-color: rgb(225, 225, 225);
+  box-shadow:  inset 1.5px 2px 1px #BABECC, inset -1.5px -2.5px 1px #BABECC;
+  box-shadow:  inset 1.5px 2px 1px #BABECC, inset -1px -2.5px 1px #BABECC;
+  box-shadow:  inset 0px 0px 0px #BABECC, inset -1px -2.5px 1px #BABECC;
+  box-shadow:  inset 1.5px 2px 1px #BABECC, inset -0px -0px 0px #BABECC;
+}
+.slider-wrapper {
+  background-color: #EBECF0;
+  background-color: rgb(240, 240, 240);
+  background-color: hsl(0deg 0% 97%);
+} */
 
 .card-li {
   font-size: 14px;
   margin: 1em 0;
 }
 
-.button-pomo {
-	height: 50px;
+button{
+  height: 50px;
 	width: 240px;
   position: relative;
 	margin-bottom: 20px;
@@ -118,7 +142,6 @@ h1::after {
 	/* transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
 	--bg-opacity: 1;
 	--text-opacity: 1; */
-	background: #48e5c3be;
 	color: #fff;
 	/* border: 1px solid #130b43; */
 	/* --border-opacity: 1; */
@@ -128,21 +151,31 @@ h1::after {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
+  z-index: 15;
 
 }
 
-.button-pomo:hover{
+button:hover{
   box-shadow: -2px -2px 3px #fff, 2px 2px 3px #BABECC;
 }
 
-.button-pomo:active{
+button:active{
   box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #fff;
 }
 
-.flow-pic {
-  width: 250px;
+.blue-button {
+	background: var(--blue);
 }
 
-.inspiration-pic {
-  width: 250px;
+.green-button {
+	background: var(--green);
+}
+
+.yellow-button {
+	background: var(--yellow);
+}
+
+
+.undraw-pic {
+  width: 210px;
 }
