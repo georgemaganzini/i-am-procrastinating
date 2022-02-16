@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   --blue: #6394ff;
-  --green: #00C354;
+  --green: #00c355ce;
   --yellow: #ffce63;
   /* overflow: visible !important; */
 }
@@ -54,9 +54,12 @@ code {
 
 .card-title {
   margin-top: 10px;
-  position: relative;
   font-size: 26px;
   font-weight: 600;
+}
+
+.card-title, .underline {
+  position: relative;
 }
 
 .card-title::after {
@@ -71,15 +74,27 @@ code {
     background-size: cover;
 }
 
-.green-h1::after {
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: -0.25rem;
+    left: 0;
+    right: 0;
+    height: 0.5rem;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green-h1::after, .green-underline::after {
   background-image: url('./assets/green.svg');
 }
 
-.blue-h1::after {
+.blue-h1::after, .blue-underline::after {
   background-image: url('./assets/blue.svg');
 }
 
-.yellow-h1::after {
+.yellow-h1::after, .yellow-underline::after {
   background-image: url('./assets/yellow.svg');
 }
 
@@ -126,6 +141,7 @@ button{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   transition: all 0.5s ease-in-out;
+  z-index: 15;
 
 }
 

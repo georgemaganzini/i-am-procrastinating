@@ -3,16 +3,17 @@ Overall Ethos:
 -Delightful to use, aesthetically pleasing
 -Provide Valuable Information + Tools
 
-
 MVP TODO:
-Add base content to all slides
-Add base functionality to all slides
-Routes
-Navbar - About, Contact, Info
+Add ability to log information via local storage
+
 
 POST MVP TODO:
+Routes? or just modal
+Navbar - About, Contact, Info
 Dark mode
 Custom interaction for individual methods
+
+
 
 Tuesday:
 Base Content and functionality to all slides
@@ -20,9 +21,9 @@ Routes and navbar stuff too?
 
 
 Wednesday:
-Swap carousel to moving cards?
-2-3 cards per page based on media query?
+navbar stuff
 individual card improvements
+Swap carousel to moving cards? 2-3 cards per page based on media query?
 
 
 Thursday:
