@@ -11,7 +11,8 @@ function Visualize(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Track your progress</li>
+                <li className='card-li'>Make goals visible, think bulletin board, Post-it notes, etc. </li>
+                <li className='card-li'>Track your progress with an app or notebook</li>
             </ul>
             <div>
                 buttons etc

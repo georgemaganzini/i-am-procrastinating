@@ -11,10 +11,10 @@ function Goals(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>"Achieve this" not "avoid that"</li>
+                <li className='card-li'>Make goals: specific, measurable, and meaningful</li>
+                <li className='card-li'>Approach goals are better than avoidance goals, e.g. "achieve this" not "avoid that"</li>
                 <li className='card-li'>"For X minutes" not "finish task", process not product</li>
-                <li className='card-li'>Break it down!</li>
-                <li className='card-li'>Make goals: specific, realistic, and meaningful</li>
+                <li className='card-li'>Can the goal be broken down into sub-goals?</li>
             </ul>
             <div>
                 buttons etc

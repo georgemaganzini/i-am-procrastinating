@@ -11,9 +11,9 @@ function Temptations(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Focus on the abstract aspects of your temptation, not the fun parts</li>
-                <li className='card-li'>Eliminate it! (or hide it)</li>
-                <li className='card-li'>Recognize what is tempting you</li>
+                <li className='card-li'>Recognize what in your environment is tempting you and eliminate it</li>
+                <li className='card-li'>If it's something you cant remove, try increasing friction, e.g. block websites on your computer or phone during work hours or delete the app/bookmark</li>
+                <li className='card-li'>Focus on the abstract aspects of your temptation, not the fun parts. Do the math on how much time it would take to finish that TV show, or how many calories are in that unhealthy food</li>
             </ul>
             <div>
                 buttons etc

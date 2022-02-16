@@ -12,7 +12,7 @@ function Flow(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Match difficulty with skill</li>
+                <li className='card-li'>Match difficulty with skill to achieve a flow state</li>
                 <li className='card-li'>Too easy? Make it harder</li>
                 <li className='card-li'>Too hard? Make it easier</li>
             </ul>
@@ -20,7 +20,7 @@ function Flow(props) {
                      <img
                 src={flowchart}
                 alt={'flow-pic'}
-                className="undraw-pic"
+                className="flow-pic"
             />
             </div>
         </div>

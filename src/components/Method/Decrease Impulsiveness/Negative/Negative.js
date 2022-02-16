@@ -11,8 +11,9 @@ function Negative(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Pair temptations with undesireable images</li>
-                <li className='card-li'>Imageine a disastrous outcome</li>
+                <li className='card-li'>Use covert sensitization to pair temptations with undesireable images</li>
+                <li className='card-li'>Vividly visualize a scenario that links your temptation with a disastrous outcome</li>
+                <li className='card-li'>Imagine everything that could go wrong if you delay getting to work on a task</li>
             </ul>
             <div>
                 buttons etc

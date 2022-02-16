@@ -13,7 +13,7 @@ function Distractions(props) {
             <ul className='card-ul'>
                 <li className='card-li'>Recognize what is distracting you</li>
                 <li className='card-li'>Eliminate it</li>
-                <li className='card-li'>Hide it</li>
+                <li className='card-li'>If you can't eliminate it, hide it or add friction</li>
             </ul>
             <div>
                 buttons etc

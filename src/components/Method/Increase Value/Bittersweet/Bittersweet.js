@@ -11,7 +11,9 @@ function Bittersweet(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Combine long-term interests with short-term gains</li>
+                <li className='card-li'>Combine long-term interests with short-term gains, for example:</li>
+                <li className='card-li'>Only let yourself watch your favorite show while you're on an exercise bike</li>
+                <li className='card-li'>Only listen to a podcast, audiobook, or album while you're outside running</li>
             </ul>
             <div>
                 buttons etc

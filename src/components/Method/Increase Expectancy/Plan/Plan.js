@@ -16,10 +16,8 @@ function Plan(props) {
                 <li className='card-li'>Are you generally over-optimistic or overly pessimistic?</li>
                 <li className='card-li'>If you are over-optimistic, a healthy dose of pessimism can keep you from putting too little effort into the task</li>
                 <li className='card-li'>If overly-pessimistic, expectancy needs to be increased rather than decreased</li>
+                <li className='card-li'>Beware of the planning fallacy</li>
             </ul>
-            <div>
-                buttons etc
-            </div>
         </div>
     );
 }
