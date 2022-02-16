@@ -12,9 +12,10 @@ function Plan(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>What could go wrong?</li>
-                <li className='card-li'>Draw on past experiences</li>
-                <li className='card-li'>Make a backup plan</li>
+                <li className='card-li'>Consider what could go wrong and anticipate difficulties and setbacks</li>
+                <li className='card-li'>Are you generally over-optimistic or overly pessimistic?</li>
+                <li className='card-li'>If you are over-optimistic, a healthy dose of pessimism can keep you from putting too little effort into the task</li>
+                <li className='card-li'>If overly-pessimistic, expectancy needs to be increased rather than decreased</li>
             </ul>
             <div>
                 buttons etc

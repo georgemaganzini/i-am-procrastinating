@@ -13,6 +13,7 @@ function Mindset(props) {
             <ul className='card-ul'>
                 <li className='card-li'>Qualities and skills are cultivated through effort</li>
                 <li className='card-li'>Nothing is carved in stone</li>
+                <li className='card-li'>Passions can broaden, change, or grow</li>
             </ul>
             <div>
                 buttons etc

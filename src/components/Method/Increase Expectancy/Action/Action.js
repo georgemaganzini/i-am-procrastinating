@@ -11,6 +11,7 @@ function Action(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
+                <li className='card-li'>Do you often feel eager to give up? Do you tend to see things as doomed to failure?</li>
                 <li className='card-li'>Remember: lack of effort guarantees failure</li>
             </ul>
             <div>
