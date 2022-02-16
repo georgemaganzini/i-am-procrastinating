@@ -16,9 +16,7 @@ function Inspiration(props) {
                 <li className='card-li'>Make your inspirations easily accessible and visible</li>
                 <li className='card-li'>Optimism is contagious, find and join a like-minded, inspiring, and optimistic group</li>
             </ul>
-            <div>
-                Review your inspirations
-            </div>
+
         </div>
     );
 }
