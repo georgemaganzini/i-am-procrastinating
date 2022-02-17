@@ -69,32 +69,32 @@ function SlideView(props) {
                 prevArrow={<SamplePrevArrow />}
             >
               <Pomodoro />
+              <Recognize />
+              <Energy />
+              <Habits />
+              <Acceptance />
               <Competition />
+              <Negative />
               <Inspiration/>
               <Flow />
+              <Temptations />
               <Action />
-              <Acceptance />
-              <Accountability />
-              <Bittersweet />
-              <BrainHealth />
-              <Contrast />
-              <Distractions />
-              <Energy />
+              <Reward />
               <Goals />
-              <Habits />
+              <Contrast />
+              <Accountability />
+              <Distractions />
+              <Bittersweet />
               <Meaning />
-              <Mindset />
-              <Negative />
               <Pain />
               <Passion />
               <Plan />
               <Productive />
-              <Recognize />
               <Remind />
-              <Reward />
-              <Suppression />
-              <Temptations />
               <Visualize />
+              <Mindset />
+              <Suppression />
+              <BrainHealth />
             </Slider>
           </div>
         );

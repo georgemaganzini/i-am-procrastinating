@@ -1,0 +1,104 @@
+:root {
+  /* --gray: rgb(126, 142, 158); */
+  --gray: slategray;
+  --white:hsl(0deg 0% 97%);
+	--transition: 0.5s ease;
+  --backround: var(--white);
+  --foreground: var(--gray);
+}
+
+.body {
+
+  /* background-image: url(./assets/dark1.png); */
+}
+
+
+.card {
+  background: var(--background);
+  color: var(--foreground);
+  transition: color var(--transition), background var(--transition);
+}
+
+.nav {
+  background: var(--background);
+  color: var(--foreground);
+  transition: color var(--transition), background var(--transition);
+}
+
+
+
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.toggle-wrapper {
+  position: fixed;
+  width: 130px;
+  display: block;
+  margin: .5em 45.75%;
+}
+
+
+.toggle {
+  height: 38px;
+  width: 105px;
+  background: var(--black);
+  border-radius: 40px;
+  padding: 3px;
+  padding-left: 4px;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+
+  background: var(--foreground);
+	transition: background var(--transition);
+}
+
+.toggle::before {
+  content: "";
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 30px;
+  background: var(--white);
+  position: absolute;
+  z-index: 2;
+  transform: translate(0);
+  transition: transform var(--transition);
+
+    background: var(--background);
+	transition: transform var(--transition), background var(--transition);
+}
+
+.toggle.enabled::before {
+  transform: translateX(65px);
+}
+
+.toggle input {
+	position: absolute;
+	top: 0;
+  opacity: 0;
+}
+
+.toggle .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 4px;
+}
+
+.toggle .icons svg {
+  fill: var(--white);
+  height: 30px;
+  width: 30px;
+  z-index: 0;
+
+  fill: var(--background)
+}
