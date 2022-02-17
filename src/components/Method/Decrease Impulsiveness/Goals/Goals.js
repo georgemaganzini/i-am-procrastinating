@@ -1,5 +1,6 @@
 import React from 'react';
 import goals from '../../../../assets/goals.svg'
+import LogForm from '../../../LogForm/LogForm';
 
 function Goals(props) {
     return (
@@ -16,9 +17,7 @@ function Goals(props) {
                 <li className='card-li'>"For X minutes" not "finish task", process not product</li>
                 <li className='card-li'>Can the goal be broken down into sub-goals?</li>
             </ul>
-            <div>
-                buttons etc
-            </div>
+            <LogForm parent="Goals" color="green"/>
         </div>
     );
 }

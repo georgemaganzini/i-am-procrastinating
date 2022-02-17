@@ -4,7 +4,7 @@
   box-sizing: border-box;
   --blue: #6394ff;
   --green: #00c355ce;
-  --yellow: #ffce63;
+  --purple: #6C63FF;
   /* overflow: visible !important; */
 }
 
@@ -103,8 +103,8 @@ code {
   background-image: url('./assets/blue.svg');
 }
 
-.yellow-h1::after, .yellow-underline::after {
-  background-image: url('./assets/yellow.svg');
+.purple-h1::after, .purple-underline::after {
+  background-image: url('./assets/purple.svg');
 }
 
 .long {
@@ -181,8 +181,8 @@ button:active{
 	background: var(--green);
 }
 
-.yellow-button {
-	background: var(--yellow);
+.purple-button {
+	background: var(--purple);
 }
 
 .undraw-pic {
@@ -190,7 +190,7 @@ button:active{
 }
 
 .flow-pic {
-  margin-right: 10px;
+  margin-right: 18px;
   width: 280px;
 }
 

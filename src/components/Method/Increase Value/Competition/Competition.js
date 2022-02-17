@@ -15,8 +15,8 @@ function Competition(props) {
                 <li className='card-li'>Compete against yourself or others</li>
 
             </ul>
+            <h4>SPEEDRUN?!</h4>
             <div className='card-bottom'>
-                <h4>SPEEDRUN?!</h4>
                 <button className='blue-button'>00:00 ⏱️</button>
             </div>
         </div>

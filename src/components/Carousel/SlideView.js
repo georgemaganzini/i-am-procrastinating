@@ -31,7 +31,6 @@ import Suppression from '../Method/Decrease Impulsiveness/Suppression/Suppressio
 import Temptations from '../Method/Decrease Impulsiveness/Temptations/Temptations';
 import Visualize from '../Method/Decrease Impulsiveness/Visualize/Visualize';
 
-
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (

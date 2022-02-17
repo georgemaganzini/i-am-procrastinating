@@ -1,5 +1,6 @@
 import React from 'react';
 import meaning from '../../../../assets/meaning.svg'
+import LogForm from '../../../LogForm/LogForm';
 
 function Meaning(props) {
     return (
@@ -15,9 +16,7 @@ function Meaning(props) {
                 <li className='card-li'>Set and review your major life goals</li>
                 <li className='card-li'>Remind yourself how this task helps you achieve your larger goals</li>
             </ul>
-            <div>
-                buttons etc
-            </div>
+            <LogForm parent="Meaning" color="blue"/>
         </div>
     );
 }

@@ -4,7 +4,7 @@ import action from '../../../../assets/action.svg'
 function Action(props) {
     return (
         <div className='card'>
-            <h1 className='card-title yellow-h1'>Action is Required</h1>
+            <h1 className='card-title purple-h1'>Action is Required</h1>
             <img
                 src={action}
                 alt={'action'}
@@ -15,7 +15,7 @@ function Action(props) {
                 <li className='card-li'>Remember: lack of effort guarantees failure</li>
             </ul>
             <div>
-                buttons etc
+                <button className='purple-button'>Okay! 👍</button>
             </div>
         </div>
     );

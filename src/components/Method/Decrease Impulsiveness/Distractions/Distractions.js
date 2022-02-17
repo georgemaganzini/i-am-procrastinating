@@ -16,7 +16,7 @@ function Distractions(props) {
                 <li className='card-li'>If you can't eliminate it, hide it or add friction</li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );

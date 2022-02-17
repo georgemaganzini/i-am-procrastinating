@@ -1,14 +1,11 @@
 import React from 'react';
 import inspiration from '../../../../assets/inspiration.svg'
-import { useContext } from 'react';
-import { ProcrastinationContext } from '../../../../procrastinationContext';
-import NewLogForm from '../../../../reducer/NewLogForm';
+import LogForm from '../../../LogForm/LogForm';
 
 function Inspiration(props) {
-    const {test, setTest} = useContext(ProcrastinationContext);
     return (
         <div className='card'>
-            <h1 className='card-title yellow-h1'>Get Inspired</h1>
+            <h1 className='card-title purple-h1'>Get Inspired</h1>
             <img
                 src={inspiration}
                 alt={'inspiration-pic'}
@@ -20,7 +17,7 @@ function Inspiration(props) {
                 <li className='card-li'>Make your inspirations easily accessible and visible</li>
                 <li className='card-li'>Optimism is contagious, find and join a like-minded, inspiring, and optimistic group</li>
             </ul>
-        <div className='z-index-me'><NewLogForm /></div>
+        <LogForm parent="Inspiration" color="purple"/>
         </div>
     );
 }
