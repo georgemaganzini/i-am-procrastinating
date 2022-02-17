@@ -1,5 +1,6 @@
 import React from 'react';
 import reward from '../../../../assets/reward.svg'
+import LogForm from '../../../LogForm/LogForm';
 
 function Reward(props) {
     return (
@@ -16,9 +17,7 @@ function Reward(props) {
                 <li className='card-li'>Properly linking a reward to a behavior can create neurological cravings to help you engage in that behavior</li>
                 <li className='card-li'>Variable schedule or unexpected rewards are powerful motivators, but require someone else to be in charge of rewarding you</li>
             </ul>
-            <div>
-                Input reward ideas / display previous
-            </div>
+            <LogForm parent="Reward" color="blue"/>
         </div>
     );
 }

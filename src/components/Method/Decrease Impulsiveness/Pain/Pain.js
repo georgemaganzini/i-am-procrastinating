@@ -1,5 +1,6 @@
 import React from 'react';
 import pain from '../../../../assets/pain.svg'
+import cat from '../../../../assets/thumbsup.png'
 
 function Pain(props) {
     return (
@@ -17,7 +18,7 @@ function Pain(props) {
                 <li className='card-li'>Set aside money you will lose if you don't achieve your goal, donate it to a charity you don't like if you fail</li>
             </ul>
             <div>
-                <button className='green-button'>Okay! 👍</button>
+                <button className='green-button'>okay<img src={cat} alt="cat" className='cat'/></button>
             </div>
         </div>
     );
