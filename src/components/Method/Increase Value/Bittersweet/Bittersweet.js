@@ -16,7 +16,7 @@ function Bittersweet(props) {
                 <li className='card-li'>Only listen to a podcast, audiobook, or album while you're outside running</li>
             </ul>
             <div>
-                <button className='blue-button'>Okay! 👍</button>
+                <button className='blue-button'>  Okay 👍 </button>
             </div>
         </div>
     );

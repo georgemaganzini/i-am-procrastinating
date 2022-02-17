@@ -6,11 +6,6 @@ import { useState } from 'react';
 function Competition(props) {
     const [isRunning, setIsRunning] = useState(false);
 
-    const toggleTimer = () =>{
-        setIsRunning(!isRunning)
-        console.log(isRunning)
-    }
-
     return (
         <div className='card'>
             <h1 className='card-title blue-h1'>Create Competition</h1>
@@ -29,17 +24,16 @@ function Competition(props) {
                 <Timer
                     startImmediately={false}
                     onStart={() => setIsRunning(!isRunning)}
-                    onResume={() => setIsRunning(!isRunning)}
                     onPause={() => setIsRunning(!isRunning)}
-                    onStop={() => setIsRunning(!isRunning)}
-                    onReset={() => console.log("onReset hook")}
                 >
                 {({ start, resume, pause, stop, reset, timerState }) => (
                     <React.Fragment>
                         <button className='blue-button' onClick={()=> isRunning ? pause() : start()}>
+                            <Timer.Hours />:
                             <Timer.Minutes />:
-                            <Timer.Seconds />:
-                            <Timer.Milliseconds /> ⏱️
+                            <Timer.Seconds />
+                            {/* <Timer.Milliseconds /> */}
+                            {" "}⏱️
                         </button>
                     </React.Fragment>
                 )}

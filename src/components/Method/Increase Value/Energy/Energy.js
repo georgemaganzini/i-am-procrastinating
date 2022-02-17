@@ -1,7 +1,12 @@
 import React from 'react';
 import energy from '../../../../assets/energy.svg'
+import youtube from '../../../../assets/youtube.svg'
 
 function Energy(props) {
+
+    const handleClick = () => {
+        window.open("https://www.youtube.com/watch?v=pL02HRFk2vo")
+    }
     return (
         <div className='card'>
             <h1 className='card-title blue-h1'>Get Some Energy</h1>
@@ -19,8 +24,8 @@ function Energy(props) {
                 <li className='card-li'>Plan around your energy, not your time</li>
                 <li className='card-li'>Take genuinely relaxing breaks</li>
             </ul>
-                <button className='blue-button'>Try NSDR</button>
-                
+                <button className='blue-button yt' onClick={handleClick}>Try an NSDR! <img src={youtube} alt="youtube" className='youtube'/></button>
+
                {/* https://www.youtube.com/watch?v=pL02HRFk2vo */}
         </div>
     );

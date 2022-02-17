@@ -215,3 +215,21 @@ button:active{
 /* .slider-wrapper{
   border: 1px solid green;
 } */
+
+.cat {
+  width: 50px;
+  top: 0px;
+  right: 2.5em;
+  position: absolute;
+}
+
+.youtube {
+  width: 30px;
+  position: absolute;
+  right: 2.2em;
+  top: 9px;
+}
+
+.yt {
+  padding-right: 2em;
+}
