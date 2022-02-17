@@ -62,14 +62,16 @@ function SlideView(props) {
                 slidesToScroll={1}
                 infinite={true}
                 arrows={true}
+                // make only true on mobile?
+                swipe={false}
                 accessibility={true}
-                fade={true}
+                // fade={true}
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
+              <Inspiration/>
               <Pomodoro />
               <Flow />
-              <Inspiration />
               <Action />
               <Acceptance />
               <Accountability />

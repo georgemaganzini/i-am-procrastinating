@@ -11,12 +11,13 @@ function Productive(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>What can you avoid by doing this?</li>
+                <li className='card-li'>Procrastinating by doing less-important work is better than procrastinating by doing nothing. Motivation can come easy when we’re avoiding something.</li>
                 <li className='card-li'>What can you do by avoiding this?</li>
+                <li className='card-li'>What can you avoid by doing this?</li>
             </ul>
-            <div>
+            {/* <div>
                 buttons etc
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -11,7 +11,9 @@ function Suppression(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
-                <li className='card-li'>Do not force distractions out of your head</li>
+                <li className='card-li'>Do not try to bury or supress your temptations or distractions, it doesn't work!</li>
+                <li className='card-li'>Acknowledge them so that you can begin to deal with them logically</li>
+                <li className='card-li'></li>
             </ul>
             <div>
                 buttons etc
