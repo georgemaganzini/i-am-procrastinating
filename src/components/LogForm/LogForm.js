@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
+import './LogForm.css';
 
 const LogForm = (props) => {
+
 const [logEntry, setLogEntry] = useState("")
 
 function addEntry() {

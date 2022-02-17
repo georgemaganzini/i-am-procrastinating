@@ -68,6 +68,7 @@ function SlideView(props) {
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
+              <Competition />
               <Inspiration/>
               <Pomodoro />
               <Flow />
@@ -76,7 +77,6 @@ function SlideView(props) {
               <Accountability />
               <Bittersweet />
               <BrainHealth />
-              <Competition />
               <Contrast />
               <Distractions />
               <Energy />
