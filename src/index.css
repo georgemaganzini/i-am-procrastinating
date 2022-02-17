@@ -211,11 +211,6 @@ button:active{
   align-items: center;
 }
 
-
-/* .slider-wrapper{
-  border: 1px solid green;
-} */
-
 .cat {
   width: 50px;
   top: 0px;
@@ -233,3 +228,13 @@ button:active{
 .yt {
   padding-right: 2em;
 }
+
+.button-wrapper {
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+
+/* .slider-wrapper{
+    border: 1px solid green;
+} */
