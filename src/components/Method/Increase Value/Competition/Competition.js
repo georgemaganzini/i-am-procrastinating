@@ -15,12 +15,12 @@ function Competition(props) {
                 className="undraw-pic"
             />
             <ul className='card-ul'>
+                <li className='card-li'>Make the task a competition against yourself or others</li>
                 <li className='card-li'>Turn it into a game, make it fun!</li>
-                <li className='card-li'>Compete against yourself or others</li>
 
             </ul>
-            <h4>SPEEDRUN?!</h4>
             <div className='card-bottom'>
+            <h4 className='speedrun-h4'>MAKE IT A SPEEDRUN?!</h4>
                 <Timer
                     startImmediately={false}
                     onStart={() => setIsRunning(!isRunning)}
@@ -32,7 +32,7 @@ function Competition(props) {
                             <Timer.Hours />:
                             <Timer.Minutes />:
                             <Timer.Seconds />
-                            {/* <Timer.Milliseconds /> */}
+                            {/* :<Timer.Milliseconds /> */}
                             {" "}⏱️
                         </button>
                     </React.Fragment>

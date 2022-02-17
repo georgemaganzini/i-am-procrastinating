@@ -17,7 +17,7 @@ function Flow(props) {
                 <li className='card-li'>Too hard? Make it easier</li>
             </ul>
             <div>
-                     <img
+                <img
                 src={flowchart}
                 alt={'flow-pic'}
                 className="flow-pic"

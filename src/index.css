@@ -191,7 +191,7 @@ button:active{
 
 .flow-pic {
   margin-right: 18px;
-  width: 280px;
+  width: 250px;
 }
 
 .card-bottom {
@@ -212,9 +212,9 @@ button:active{
 }
 
 .cat {
-  width: 50px;
-  top: 0px;
-  right: 2.5em;
+  width: 40px;
+  top: 5px;
+  right: 3em;
   position: absolute;
 }
 
@@ -232,6 +232,15 @@ button:active{
 .button-wrapper {
   margin-bottom: 20px;
   margin-left: 30px;
+}
+
+.speedrun-h4{
+  margin-bottom: 2em;
+}
+
+.recognize-h4 {
+  position: relative;
+  top: 1.5em;
 }
 
 
