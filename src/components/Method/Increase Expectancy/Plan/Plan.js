@@ -4,7 +4,7 @@ import plan from '../../../../assets/plan.svg'
 function Plan(props) {
     return (
         <div className='card'>
-            <div><h1 className='card-title yellow-h1 long'>Plan for the Worst</h1> <h1 className='card-title yellow-h1 long'>Hope for the Best</h1></div>
+            <div><h1 className='card-title purple-h1 long'>Plan for the Worst</h1> <h1 className='card-title purple-h1 long'>Hope for the Best</h1></div>
 
             <img
                 src={plan}

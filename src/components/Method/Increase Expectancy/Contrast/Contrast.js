@@ -4,7 +4,7 @@ import contrast from '../../../../assets/contrast.svg'
 function Contrast(props) {
     return (
         <div className='card'>
-            <h1 className='card-title yellow-h1'>Contrast</h1>
+            <h1 className='card-title purple-h1'>Contrast</h1>
             <img
                 src={contrast}
                 alt={'contrast'}
@@ -17,7 +17,7 @@ function Contrast(props) {
                 <li className='card-li'>View the current situation an obstacle that needs to be overcome to achieve your dreams</li>
             </ul>
             <div>
-                buttons etc
+                <button className='purple-button'>Okay! 👍</button>
             </div>
         </div>
     );

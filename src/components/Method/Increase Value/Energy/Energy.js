@@ -20,6 +20,7 @@ function Energy(props) {
                 <li className='card-li'>Take genuinely relaxing breaks</li>
             </ul>
                 <button className='blue-button'>Try NSDR</button>
+                
                {/* https://www.youtube.com/watch?v=pL02HRFk2vo */}
         </div>
     );

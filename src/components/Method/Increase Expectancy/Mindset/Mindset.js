@@ -4,7 +4,7 @@ import mindset from '../../../../assets/mindset.svg'
 function Mindset(props) {
     return (
         <div className='card'>
-            <h1 className='card-title yellow-h1'>Check Your Mindset</h1>
+            <h1 className='card-title purple-h1'>Check Your Mindset</h1>
             <img
                 src={mindset}
                 alt={'mindset'}
@@ -16,7 +16,7 @@ function Mindset(props) {
                 <li className='card-li'>Passions can broaden, change, or grow</li>
             </ul>
             <div>
-                buttons etc
+                <button className='purple-button'>Okay! 👍</button>
             </div>
         </div>
     );

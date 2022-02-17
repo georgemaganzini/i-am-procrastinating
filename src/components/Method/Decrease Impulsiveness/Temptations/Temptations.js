@@ -16,7 +16,7 @@ function Temptations(props) {
                 <li className='card-li'>Focus on the abstract aspects of your temptation, not the fun parts. Do the math on how much time it would take to finish that TV show, or how many calories are in that unhealthy food</li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import Navbar from './components/Nav/Navbar';
 import SlideView from './components/Carousel/SlideView';
-import { ProcrastinationContext } from './procrastinationContext';
+import { ProcrastinationContext } from './components/context/procrastinationContext';
 import { useState } from 'react';
 
 function App() {

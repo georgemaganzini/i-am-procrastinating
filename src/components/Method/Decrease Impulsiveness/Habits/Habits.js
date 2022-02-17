@@ -17,7 +17,7 @@ function Habits(props) {
                 <li className='card-li'>Schedule leisure before work. Sometimes it can be best to satisfy needs before they get to intense to distract you from work</li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );

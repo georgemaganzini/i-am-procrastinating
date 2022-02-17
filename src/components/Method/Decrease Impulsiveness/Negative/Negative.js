@@ -16,7 +16,7 @@ function Negative(props) {
                 <li className='card-li'>Imagine everything that could go wrong if you delay getting to work on a task</li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );

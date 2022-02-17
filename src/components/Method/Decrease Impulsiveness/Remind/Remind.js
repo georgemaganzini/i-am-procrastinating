@@ -1,5 +1,6 @@
 import React from 'react';
 import remind from '../../../../assets/remind.svg'
+import LogForm from '../../../LogForm/LogForm';
 
 function Remind(props) {
     return (
@@ -15,9 +16,7 @@ function Remind(props) {
                 <li className='card-li'>Look at your goals</li>
                 <li className='card-li'>Read an inspiring quote</li>
             </ul>
-            <div>
-                buttons etc
-            </div>
+            <LogForm parent="Remind" color="green"/>
         </div>
     );
 }

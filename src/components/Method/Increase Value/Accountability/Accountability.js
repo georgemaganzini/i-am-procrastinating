@@ -17,7 +17,7 @@ function Accountability(props) {
 
             </ul>
             <div>
-                buttons etc
+                <button className='blue-button'>Okay! 👍</button>
             </div>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import visualize from '../../../../assets/visualize.svg'
+import LogForm from '../../../LogForm/LogForm';
 
 function Visualize(props) {
     return (
@@ -14,9 +15,7 @@ function Visualize(props) {
                 <li className='card-li'>Make goals visible, think bulletin board, Post-it notes, etc. </li>
                 <li className='card-li'>Track your progress with an app or notebook</li>
             </ul>
-            <div>
-                buttons etc
-            </div>
+            <LogForm parent="Visualize" color="green"/>
         </div>
     );
 }

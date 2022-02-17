@@ -16,7 +16,7 @@ function Suppression(props) {
                 <li className='card-li'></li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );

@@ -17,7 +17,7 @@ function Pain(props) {
                 <li className='card-li'>Set aside money you will lose if you don't achieve your goal, donate it to a charity you don't like if you fail</li>
             </ul>
             <div>
-                buttons etc
+                <button className='green-button'>Okay! 👍</button>
             </div>
         </div>
     );
