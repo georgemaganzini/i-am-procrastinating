@@ -13,7 +13,7 @@ export default function ThemeToggle() {
 
     const updateTheme = (isDarkEnabled) => {
         const styles = getComputedStyle(document.body);
-	    const gray = styles.getPropertyValue("--gray");
+	      const gray = styles.getPropertyValue("--gray");
         const white = styles.getPropertyValue("--white");
         const docEl = document.documentElement;
 

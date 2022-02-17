@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Contact from './Contact';
 
 
 const Ul = styled.ul`
@@ -37,7 +38,7 @@ function RightNav({open}) {
                 <li>Home</li>
                 <li>How To Use</li>
                 <li>About</li>
-                <li>Contact Me</li>
+                <li>Contact</li>
             </Ul>
     );
 }

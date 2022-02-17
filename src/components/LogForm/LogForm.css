@@ -23,10 +23,8 @@ input[type=submit] {
 	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
-	color: #fff;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    box-shadow: -3px -3px 5px #fff,  3px 3px 5px #BABECC;
     border-radius: 30px;
     transition: all 0.5s ease-in-out;
     z-index: 15;
