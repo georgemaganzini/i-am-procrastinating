@@ -4,20 +4,15 @@ import { ProcrastinationContext } from './components/context/procrastinationCont
 import { useState } from 'react';
 
 function App() {
-  const [test, setTest] = useState(()=>{
-    const saved = localStorage.getItem("name");
-    const initialValue = JSON.parse(saved);
-    return initialValue || "";
-  });
+  const [isEnabled, setIsEnabled] = useState(false);
 
   return (
     <ProcrastinationContext.Provider
       value={{
-        test,
-        setTest,
+        isEnabled, setIsEnabled
       }}>
       <Navbar />
-      <div className='content-wrapper'>
+      <div className={ isEnabled ? 'content-wrapper dark' : 'content-wrapper light'}>
           <SlideView />
       </div>
     </ProcrastinationContext.Provider>
