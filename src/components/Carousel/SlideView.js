@@ -69,33 +69,33 @@ function SlideView(props) {
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
-              <Inspiration className='slider-wrapper'/>
-              <Pomodoro className='slider-wrapper' />
-              <Flow className='slider-wrapper' />
-              <Action className='slider-wrapper' />
-              <Acceptance className='slider-wrapper' />
-              <Accountability className='slider-wrapper' />
-              <Bittersweet className='slider-wrapper' />
-              <BrainHealth className='slider-wrapper' />
-              <Competition className='slider-wrapper' />
-              <Contrast className='slider-wrapper' />
-              <Distractions className='slider-wrapper' />
-              <Energy className='slider-wrapper' />
-              <Goals className='slider-wrapper' />
-              <Habits className='slider-wrapper' />
-              <Meaning className='slider-wrapper' />
-              <Mindset className='slider-wrapper' />
-              <Negative className='slider-wrapper' />
-              <Pain className='slider-wrapper' />
-              <Passion className='slider-wrapper' />
-              <Plan className='slider-wrapper' />
-              <Productive className='slider-wrapper' />
-              <Recognize className='slider-wrapper' />
-              <Remind className='slider-wrapper' />
-              <Reward className='slider-wrapper' />
-              <Suppression className='slider-wrapper' />
-              <Temptations className='slider-wrapper' />
-              <Visualize className='slider-wrapper' />
+              <Inspiration/>
+              <Pomodoro />
+              <Flow />
+              <Action />
+              <Acceptance />
+              <Accountability />
+              <Bittersweet />
+              <BrainHealth />
+              <Competition />
+              <Contrast />
+              <Distractions />
+              <Energy />
+              <Goals />
+              <Habits />
+              <Meaning />
+              <Mindset />
+              <Negative />
+              <Pain />
+              <Passion />
+              <Plan />
+              <Productive />
+              <Recognize />
+              <Remind />
+              <Reward />
+              <Suppression />
+              <Temptations />
+              <Visualize />
             </Slider>
           </div>
         );

@@ -1,31 +1,35 @@
 import React, {useContext, useState, useEffect} from 'react';
 import { ProcrastinationContext } from '../procrastinationContext';
-import { useLocalStorage } from '../useLocalStorage';
 
 const NewLogForm = () => {
-    // const {test, setTest} = useContext(ProcrastinationContext);
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     console.log(test)
-    //     setTest("");
-    // }
-//    useEffect(() => {
 
-//     localStorage.setItem("name", JSON.stringify(test));
-//     }, [test2]);
+const [test2, setTest2] = useState()
 
-
-const [test2, setTest2] = useLocalStorage("name", "");
+function addInspiration() {
+    let inspirationString = localStorage.getItem("inspirations")
+    let inspirations = []
+    if (inspirationString){
+        inspirations = JSON.parse(inspirationString)
+    }
+    inspirations.push(test2)
+    localStorage.setItem("inspirations", JSON.stringify(inspirations))
+}
 
 const handleChange = (e) => {
         e.preventDefault();
-        console.log(e.target.value)
+        setTest2(e.target.value)
 }
 
+const handleSubmit = (e) =>{
+        e.preventDefault();
+        setTest2(e.target.value)
+        addInspiration();
+        setTest2("");
 
+}
     return(
-            <form>
-                <input type="text" placeholder="What inspires you?" value={test2} onChange={(e)=>setTest2(e.target.value)}/>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="What inspires you?" value={test2} onChange={handleChange}/>
                 <input type="submit" value="Submit" />
             </form>
     )
