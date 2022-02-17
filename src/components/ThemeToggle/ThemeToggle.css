@@ -1,31 +1,25 @@
 :root {
-  /* --gray: rgb(126, 142, 158); */
   --gray: slategray;
   --white:hsl(0deg 0% 97%);
+  --black: black;
 	--transition: 0.5s ease;
+  --text: var(--black);
   --backround: var(--white);
   --foreground: var(--gray);
+  /* color: var(--black); */
 }
 
-.body {
-
-  /* background-image: url(./assets/dark1.png); */
-}
 
 
 .card {
   background: var(--background);
-  color: var(--foreground);
   transition: color var(--transition), background var(--transition);
 }
 
 .nav {
   background: var(--background);
-  color: var(--foreground);
   transition: color var(--transition), background var(--transition);
 }
-
-
 
 .hidden {
   clip: rect(0 0 0 0);
@@ -48,14 +42,12 @@
 .toggle {
   height: 38px;
   width: 105px;
-  background: var(--black);
   border-radius: 40px;
   padding: 3px;
   padding-left: 4px;
   position: relative;
   margin: auto;
   cursor: pointer;
-
   background: var(--foreground);
 	transition: background var(--transition);
 }
@@ -71,8 +63,7 @@
   z-index: 2;
   transform: translate(0);
   transition: transform var(--transition);
-
-    background: var(--background);
+  background: var(--background);
 	transition: transform var(--transition), background var(--transition);
 }
 
@@ -99,6 +90,5 @@
   height: 30px;
   width: 30px;
   z-index: 0;
-
   fill: var(--background)
 }
