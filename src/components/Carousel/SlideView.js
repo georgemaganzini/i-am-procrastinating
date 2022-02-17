@@ -30,8 +30,7 @@ import Reward from '../Method/Increase Value/Reward/Reward';
 import Suppression from '../Method/Decrease Impulsiveness/Suppression/Suppression';
 import Temptations from '../Method/Decrease Impulsiveness/Temptations/Temptations';
 import Visualize from '../Method/Decrease Impulsiveness/Visualize/Visualize';
-
-import Timer from '../Method/Decrease Impulsiveness/Pomodoro/Timer';
+import { isMobile } from 'react-device-detect';
 
 
 function SampleNextArrow(props) {
@@ -64,10 +63,8 @@ function SlideView(props) {
                 slidesToScroll={1}
                 infinite={true}
                 arrows={true}
-                // make only true on mobile?
-                swipe={false}
+                swipe={ isMobile ? true : false}
                 accessibility={true}
-                // fade={true}
                 nextArrow={<SampleNextArrow />}
                 prevArrow={<SamplePrevArrow />}
             >
@@ -101,6 +98,6 @@ function SlideView(props) {
             </Slider>
           </div>
         );
-    }
+}
 
 export default SlideView;

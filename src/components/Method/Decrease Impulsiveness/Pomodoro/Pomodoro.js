@@ -4,21 +4,14 @@ import pomo2 from '../../../../assets/pomo2.svg';
 import Timer from './Timer'
 import { useState} from 'react';
 
-
-
-
 function Pomodoro(props) {
     const [showButtons, setShowButtons] = useState(true)
     const [seconds, setSeconds] = useState(600)
-
 
     const handleClick = (seconds) => {
         setSeconds(seconds)
         setShowButtons(false)
     }
-
-
-
 
     return (
         <div className='card'>

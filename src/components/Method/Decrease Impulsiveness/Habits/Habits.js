@@ -14,7 +14,7 @@ function Habits(props) {
                 <li className='card-li'>Routines and habits are powerful forces that can help circumvent impulsiveness</li>
                 <li className='card-li'>Can part of this be turned into a habit or added to an existing routine?</li>
                 <li className='card-li'>Separate work and play, e.g. only do work in your work area and relax in a different area</li>
-                <li className='card-li'>Schedule leisure before work. Sometimes it can be best to satisfy needs before they get to intense to distract you from work</li>
+                <li className='card-li'>Schedule leisure before work. Sometimes it can be best to satisfy needs before they get to intense to pull you from work</li>
             </ul>
             <div>
                 <button className='green-button'>Okay! 👍</button>

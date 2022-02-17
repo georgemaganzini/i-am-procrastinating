@@ -1,5 +1,6 @@
 import React from 'react';
 import action from '../../../../assets/action.svg'
+import cat from '../../../../assets/thumbsup.png'
 
 function Action(props) {
     return (
@@ -15,7 +16,7 @@ function Action(props) {
                 <li className='card-li'>Remember: lack of effort guarantees failure</li>
             </ul>
             <div>
-                <button className='purple-button'>Okay! 👍</button>
+                <button className='purple-button'>okay<img src={cat} alt="cat" className='cat'/></button>
             </div>
         </div>
     );

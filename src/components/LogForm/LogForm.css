@@ -4,6 +4,7 @@ input[type=text] {
     border:2px solid rgb(225, 225, 225);
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    margin-bottom: 2em;
 }
 
 input[type=submit] {
