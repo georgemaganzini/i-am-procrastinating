@@ -1,27 +1,29 @@
-# Project Description
+# I Am Procrastinating
+
+![image](https://user-images.githubusercontent.com/76757656/154614581-8fca28ea-5807-465e-89a2-9f0fa5fd6a8f.png)
+
+
 
 Adapting [this poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) into an app because I find it way too cumbersome to use in its current form. The user would be shown just one method to combat procrastination at a time, with helpful tips, tools, and resources to help them understand or perform the method. The user would be able to cycle through the methods randomly until they find one they like.
 
 
+
+### Installation 
+
+Clone down the repo and run 
+```
+npm i
+```
+and then
+```
+npm start
+```
+or check out the [web app](https://i-am-procrastinating.netlify.app/)
+
 ### Technologies used
-Mongo, Express, React, Node
 
-
-### Backend Models
--User
---Goals
---Core Values
---Progress/Small Victories
-
-### Component hierarchy
-
--App
---Navbar
----Home
----Info/How to use
----About
---Method
----Method-specific-tools
+-React
+-CSS
 
 ### User stories
 
@@ -35,3 +37,7 @@ Mongo, Express, React, Node
 
 ### Wireframes
 ![image](https://media.git.generalassemb.ly/user/40302/files/407e7b80-8afe-11ec-845c-a07bc860db4d)
+
+### Unsolved Issues / Major Hurdles
+-I deliberately chose an open-ended project that I can continue to improve over time, currently my next goal for improving the app is finding out the best way to implement the log or journal system that stores input from the user, my current solution is to store that data on the "back" of each respective card that takes input. The user's would then have the option to flip the card over to see what they previously entered, but I would like to be able to something more
+-Still experimenting with card flip animations, perhaps all cards will have additional information on the back for users that are interested
