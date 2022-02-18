@@ -56,8 +56,8 @@ function About() {
           </div>
           <div>
             The information is based on scientific research on motivation and
-            procrastination documented in Piers Steel's book <a href='https://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703621'>The Procrastination Equation</a> as
-            well as inspired by <a href='https://alexvermeer.com/limit-procrastination/'>Alex Vermeer's blog posts</a> and <a href='https://alexvermeer.com/getmotivated/'>poster</a>.
+            procrastination documented in Piers Steel's book <a href='https://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703621' target="_blank" rel="noreferrer">The Procrastination Equation</a> as
+            well as inspired by <a href='https://alexvermeer.com/limit-procrastination/' target="_blank" rel="noreferrer">Alex Vermeer's blog posts</a> and <a href='https://alexvermeer.com/getmotivated/' target="_blank" rel="noreferrer">poster</a>.
            </div>
           <button type="button" onClick={() => setShow(false)} className="modal-button about-button">
             close
