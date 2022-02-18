@@ -4,7 +4,7 @@
 
 
 
-Adapting [this poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) into an app because I find it way too cumbersome to use in its current form. The user would be shown just one method to combat procrastination at a time, with helpful tips, tools, and resources to help them understand or perform the method. The user would be able to cycle through the methods randomly until they find one they like.
+Decided to adapt [this poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) into an app because I found it a bit cumbersome to use in its current form. 
 
 
 
