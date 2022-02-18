@@ -2,11 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/76757656/154614581-8fca28ea-5807-465e-89a2-9f0fa5fd6a8f.png)
 
-
-
-Decided to adapt [this poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) into an app because I found it a bit cumbersome to use in its current form. 
-
-
+The goal of the app is to provide users with very easy to understand tips to help overcome procrastination. The information is based on the latest scientific research on motivation and procrastination as found in Piers Steel's book [The Procrastination Equation](https://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703621) as well as inspired by Alex Vermeer's [blog](https://alexvermeer.com/limit-procrastination/) [posts](https://alexvermeer.com/stop-procrastinating-right-now) and [poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) based on the same book.
 
 ### Installation 
 
