@@ -253,7 +253,37 @@ button:active{
   top: 1.5em;
 }
 
+.modal-example{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* .slider-wrapper{
-    border: 1px solid green;
-} */
+.modal-button {
+  background: slategray;
+  height: 40px;
+	width: 90px;
+  position: relative;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.modal-wrapper{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.pro-pic {
+  width: 300px;
+}
+
+.about-span {
+  font-size: 15px;
+}
+
+.about-button {
+  margin-top: 1em;
+  margin-left: 13em;
+}
