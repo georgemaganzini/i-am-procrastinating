@@ -23,6 +23,7 @@ or check out the [web app](https://i-am-procrastinating.netlify.app/)
 ### Technologies used
 
 -React
+
 -CSS
 
 ### User stories
@@ -40,4 +41,6 @@ or check out the [web app](https://i-am-procrastinating.netlify.app/)
 
 ### Unsolved Issues / Major Hurdles
 -I deliberately chose an open-ended project that I can continue to improve over time, currently my next goal for improving the app is finding out the best way to implement the log or journal system that stores input from the user, my current solution is to store that data on the "back" of each respective card that takes input. The user's would then have the option to flip the card over to see what they previously entered, but I would like to be able to something more
+
+
 -Still experimenting with card flip animations, perhaps all cards will have additional information on the back for users that are interested
