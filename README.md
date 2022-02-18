@@ -4,6 +4,8 @@
 
 The goal of the app is to provide users with very easy to understand tips to help overcome procrastination. The information is based on the latest scientific research on motivation and procrastination as found in Piers Steel's book [The Procrastination Equation](https://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703621) as well as inspired by Alex Vermeer's [blog](https://alexvermeer.com/limit-procrastination/) [posts](https://alexvermeer.com/stop-procrastinating-right-now) and [poster](https://alexvermeer.com/wp-content/uploads/howtogetmotivated-2560x1440.png) based on the same book.
 
+The app aims to provide simple bits of actionable information in a way that does not overwhelm the user as well as introduce them to new ideas and concepts that they can further explore if interested. In addition to information, the app also provides tools to help user follow the advice given.
+
 ### Installation 
 
 Clone down the repo and run 
