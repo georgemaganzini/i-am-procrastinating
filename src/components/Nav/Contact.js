@@ -1,25 +1,62 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
-function Contact(props) {
-    return (
-        <>
-            <Modal.Dialog>
-                <Modal.Header closeButton>
-                    <Modal.Title>Modal title</Modal.Title>
-                </Modal.Header>
+import Modal from 'react-overlays/Modal'
+import styled from 'styled-components';
+import {useState} from 'react';
+import { SocialIcon } from 'react-social-icons';
 
-                <Modal.Body>
-                    <p>Modal body text goes here.</p>
-                </Modal.Body>
+const Backdrop = styled("div")`
+  position: fixed;
+  z-index: 1040;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.5;
+`;
 
-                <Modal.Footer>
-                    <Button variant="secondary">Close</Button>
-                    <Button variant="primary">Save changes</Button>
-                </Modal.Footer>
-            </Modal.Dialog>
-        </>
-    );
+const PositionedModal = styled(Modal)`
+  position: absolute;
+  width: 400px;
+  top: 10%;
+  left: 40%;
+  margin: auto;
+  z-index: 1040;
+  border: 1px solid #e5e5e5;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+`;
+
+function Contact() {
+  const [show, setShow] = useState(false);
+
+  const renderBackdrop = (props) => <Backdrop {...props} />;
+
+  return (
+    <div className="modal-example">
+      <p onClick={() => setShow(true)}>Contact</p>
+
+      <PositionedModal
+        show={show}
+        onHide={() => setShow(false)}
+        renderBackdrop={renderBackdrop}
+        aria-labelledby="modal-label"
+        onBackdropClick={() => setShow(true)}
+      >
+        <div onClick={() => setShow(false)} className="modal-wrapper">
+
+
+          <p>
+            Email me at georgemaganzini@gmail.com or find me on LinkedIn   <SocialIcon url="https://www.linkedin.com/in/georgemaganzini/" target="_blank"/>
+          </p>
+          <button type="button" onClick={() => setShow(false)} className="modal-button">
+            close
+          </button>
+        </div>
+      </PositionedModal>
+    </div>
+  );
 }
 
 export default Contact;

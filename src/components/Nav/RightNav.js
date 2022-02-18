@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Contact from './Contact';
+import About from './About';
 
 
 const Ul = styled.ul`
@@ -8,7 +9,7 @@ const Ul = styled.ul`
     display: flex;
     flex-flow: row nowrap;
     z-index: 10;
-
+	cursor: pointer;
 
     li {
         padding: 18px 10px;
@@ -36,9 +37,12 @@ function RightNav({open}) {
     return (
             <Ul open={open}>
                 <li>Home</li>
-                <li>How To Use</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>
+                    <About />
+                </li>
+                <li>
+                    <Contact />
+                </li>
             </Ul>
     );
 }

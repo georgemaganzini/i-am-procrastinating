@@ -1,8 +1,12 @@
 import React from 'react';
 import recognize from '../../../../assets/recognize.svg'
 import LogForm from '../../../LogForm/LogForm';
+import { useState} from 'react';
 
 function Recognize(props) {
+    const [flipCard, setFlipCard] = useState(false);
+
+
     return (
         <div className='card'>
             <h1 className='card-title purple-h1'>Recognize Success</h1>
