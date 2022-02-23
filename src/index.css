@@ -43,7 +43,7 @@ code {
   position: relative;
   top: 3%;
   max-height: 700px;
-  min-height: 700px;
+  min-height: 650px;
   max-width: 1000px;
   min-width: 360px;
   margin: 0 auto;
@@ -69,11 +69,11 @@ code {
   align-items: center;
   position: relative;
   max-height: 650px;
-  min-height: 650px;
+  min-height: 600px;
   max-width: 300px;
   min-width: 200px;
   border-radius: 0.5rem;
-  margin: 2em auto 2em;
+  margin: 1em auto 2em;
   padding-bottom: .5em;
   /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
