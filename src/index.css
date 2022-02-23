@@ -45,13 +45,13 @@ code {
   max-height: 700px;
   min-height: 700px;
   max-width: 1000px;
-  min-width: 390px;
+  min-width: 360px;
   margin: 0 auto;
   /* border: 1px solid red; */
 }
 
 .nav {
-  padding: 0 20px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   background-color: var(--navWhite);
