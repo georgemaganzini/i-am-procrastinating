@@ -293,7 +293,9 @@ button:active{
 
   .card{
     margin-top: 0;
-    height: 600px;
+    max-height: 560px;
+    min-height: 500px;
+    justify-content: start;
   }
   .modal-button {
     right: 1em;
@@ -327,5 +329,18 @@ button:active{
   .button-wrapper {
   margin-left: 50px;
   }
+
+  .cat {
+  width: 35px;
+  top: 3px;
+  right: 2em;
+  }
+
+.youtube {
+  width: 30px;
+  right: 1.5em;
+  top: 3px;
+}
+
 
 }
