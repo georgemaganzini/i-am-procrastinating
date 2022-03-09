@@ -26,6 +26,10 @@ const PositionedModal = styled(Modal)`
   background-color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   padding: 20px;
+  @media only screen and (max-width: 600px) {
+    left: .5em;
+    width: 340px;
+  }
 `;
 
 function About() {
@@ -59,6 +63,8 @@ function About() {
             procrastination documented in Piers Steel's book <a href='https://www.amazon.com/Procrastination-Equation-Putting-Things-Getting/dp/0061703621' target="_blank" rel="noreferrer">The Procrastination Equation</a> as
             well as inspired by <a href='https://alexvermeer.com/limit-procrastination/' target="_blank" rel="noreferrer">Alex Vermeer's blog posts</a> and <a href='https://alexvermeer.com/getmotivated/' target="_blank" rel="noreferrer">poster</a>.
            </div>
+           <br></br>
+           <div>Swipe left or right on mobile devices</div>
           <button type="button" onClick={() => setShow(false)} className="modal-button about-button">
             close
           </button>

@@ -271,7 +271,7 @@ button:active{
 
 .modal-wrapper{
   display: flex;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -286,4 +286,20 @@ button:active{
 .about-button {
   margin-top: 1em;
   margin-left: 13em;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card{
+    margin-top: 0;
+  }
+  .modal-button {
+    right: 1em;
+  }
+
+  .contact-close {
+    top: 3em;
+    left: .5em;
+  }
+
 }
