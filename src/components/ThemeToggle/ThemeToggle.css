@@ -90,3 +90,40 @@
   z-index: 0;
   fill: var(--background)
 }
+
+@media only screen and (max-width: 600px) {
+  .toggle-wrapper {
+  width: 130px;
+  margin: .6em 46.75% 0;
+  }
+
+  .toggle {
+    height: 32px;
+    width: 90px;
+  }
+
+  .toggle::before {
+    height: 27px;
+    width: 27px;
+    border-radius: 30px;
+  }
+
+  .toggle input {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+  }
+
+  .toggle .icons {
+    margin: 0 4px;
+  }
+
+  .toggle .icons svg {
+    height: 25px;
+    width: 25px;
+  }
+
+  .toggle.enabled::before {
+  transform: translateX(52px);
+  }
+}
