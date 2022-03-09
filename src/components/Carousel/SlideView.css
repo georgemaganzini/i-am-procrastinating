@@ -1,47 +1,39 @@
 /* Arrows */
 
-/* @media (max-width: 1000px) {
-  .slick-next:before{
+.slick-prev:before,
+.slick-next:before {
   width: 66px;
   height: 66px;
   content: '' !important;
   position: absolute;
-  top: 360px;
-  right: 300px;
-  background-image: url('../../assets/right.png');
+  top: 370px;
   background-repeat: no-repeat;
   vertical-align: middle;
   background-size: 66px;
   opacity: .5;
-  }
-
-} */
+}
 
 .slick-prev:before{
-width: 66px;
-height: 66px;
-content: '' !important;
-position: absolute;
-top: 370px;
 left: 5em;
 background-image: url('../../assets/left.png');
-background-repeat: no-repeat;
-vertical-align: middle;
-background-size: 66px;
-opacity: .5;
-
 }
 
 .slick-next:before{
-width: 66px;
-height: 66px;
-content: '' !important;
-position: absolute;
-top: 370px;
 right: 5em;
 background-image: url('../../assets/right.png');
-background-repeat: no-repeat;
-vertical-align: middle;
-background-size: 66px;
-opacity: .5;
+}
+
+@media only screen and (max-width: 600px) {
+  .slick-prev:before,
+  .slick-next:before{
+    top: 310px;
+    height: 30px;
+    display: none;
+  }
+  .slick-prev:before{
+    left: 1em;
+  }
+  .slick-next:before{
+    right: 1em;
+  }
 }
