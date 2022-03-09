@@ -26,6 +26,11 @@ const PositionedModal = styled(Modal)`
   background-color: white;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   padding: 20px;
+    @media only screen and (max-width: 600px) {
+    left: .5em;
+    width: 340px;
+    height: 150px;
+  }
 `;
 
 function Contact() {
@@ -50,7 +55,7 @@ function Contact() {
           <p>
             Email me at georgemaganzini@gmail.com or find me on LinkedIn   <SocialIcon url="https://www.linkedin.com/in/georgemaganzini/" target="_blank"/>
           </p>
-          <button type="button" onClick={() => setShow(false)} className="modal-button">
+          <button type="button" onClick={() => setShow(false)} className="modal-button contact-close">
             close
           </button>
         </div>

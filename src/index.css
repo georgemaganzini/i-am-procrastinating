@@ -271,7 +271,7 @@ button:active{
 
 .modal-wrapper{
   display: flex;
-    justify-content: center;
+  justify-content: center;
   align-items: center;
 }
 
@@ -293,10 +293,13 @@ button:active{
   .card{
     margin-top: 0;
   }
-
-  .about-modal-wrapper{
-    height: auto;
-    width: auto;
-    margin: auto;
+  .modal-button {
+    right: 1em;
   }
+
+  .contact-close {
+    top: 3em;
+    left: .5em;
+  }
+
 }
