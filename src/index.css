@@ -290,6 +290,7 @@ button:active{
 
 
 @media only screen and (max-width: 600px) {
+
   .card{
     margin-top: 0;
     height: 600px;
@@ -309,12 +310,22 @@ button:active{
   .flow-pic{
     width: 220px;
   }
+
   button{
   height: 40px;
 	width: 200px;
 	margin-bottom: 10px;
 	font-size: 16px;
 	flex-shrink: 1;
-}
+  }
+
+  .content-wrapper {
+  height: 100vh;
+  padding-bottom: 0;
+  }
+
+  .button-wrapper {
+  margin-left: 50px;
+  }
 
 }

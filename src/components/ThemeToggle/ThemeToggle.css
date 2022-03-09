@@ -9,8 +9,6 @@
   /* color: var(--black); */
 }
 
-
-
 .card {
   background: var(--background);
   transition: color var(--transition), background var(--transition);
