@@ -292,7 +292,7 @@ button:active{
 @media only screen and (max-width: 600px) {
   .card{
     margin-top: 0;
-    height: 620px;
+    height: 600px;
   }
   .modal-button {
     right: 1em;
@@ -302,5 +302,19 @@ button:active{
     top: 3em;
     left: .5em;
   }
+  .undraw-pic {
+    width: 140px;
+  }
+
+  .flow-pic{
+    width: 220px;
+  }
+  button{
+  height: 40px;
+	width: 200px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	flex-shrink: 1;
+}
 
 }
