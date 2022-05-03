@@ -1,6 +1,6 @@
 # I Am Procrastinating
 
-This app aims to provide simple bits of actionable information in a way that does not overwhelm the user as well as introduce them to new ideas and concepts that they can further explore if interested. In addition to information, the app also provides tools to help user follow the advice given.
+Provides users with actionable information and tools to help combat procrastination. Designed as a resource to be used in the moment when a user might realize they are struggling with procrastination but unsure how to overcome it. 
 
 ![image](https://user-images.githubusercontent.com/76757656/154614581-8fca28ea-5807-465e-89a2-9f0fa5fd6a8f.png)
 
