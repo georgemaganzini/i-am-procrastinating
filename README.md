@@ -23,6 +23,7 @@ and then
 npm start
 ```
 or check out the [web app](https://i-am-procrastinating.netlify.app/)
+(click the arrows to scroll through the cards, or swipe on mobile)
 
 ### Technologies used
 
